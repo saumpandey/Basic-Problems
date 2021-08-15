@@ -4,7 +4,7 @@ public class armstrong_no {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int sum = 0 , temp = 0 ;
+        int sum = 0 , temp;
         int k = n;
         while (n > 0){
             temp = n/10 ;
